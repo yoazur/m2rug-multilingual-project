@@ -3,8 +3,10 @@ This project aims to smoothly use different languages with m2RUg French voiceban
 
 # Table of contents
 [Making your m2RUg multilingual](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#making-your-m2RUg-multilingual)
+
   [English](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#adding-english)
-  [Japanese](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#completing-english)
+  
+  [Japanese](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#completing-japanese)
   
 # Making your m2RUg multilingual
 ## Adding English
