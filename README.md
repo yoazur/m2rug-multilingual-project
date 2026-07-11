@@ -1,5 +1,5 @@
 # m2RUg Multilingual Project
-This project aims to smoothly use different languages with m2RUg French voicebanks in OpenUtau using tools like dictionaries and additionnal reclists for necessary phonemes.
+This project aims to smoothly(ish) use different languages with m2RUg French voicebanks in OpenUtau using tools like dictionaries and additionnal reclists for necessary phonemes.
 > [!IMPORTANT]
 > This repo is still being made and is not complete. Come back later to see when it's done.
 
@@ -10,12 +10,12 @@ This project aims to smoothly use different languages with m2RUg French voiceban
 - [Using the different languages](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#using-the-different-languages)
   - [English](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#using-english)
   - [Japanese](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#using-japanese)
-  
+- [Credit](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#credit)
 # Making your m2RUg multilingual
 In this part we'll see how to add language compability to an m2RUg-based voicebank using dictionaries and additionnal phonemes.
 ## Adding English
 ### The dictionary
-To make your m2RUg voicebank recognise english words, we'll mainly use a dictionary. To add it to the desired voicebank :
+To make english words map to the right m2RUg-sampa phonemes, we'll mainly use a dictionary. To add it to the desired voicebank :
 - Download the [en-xsampa.yaml](https://github.com/yoazur/m2rug-multilingual-project/blob/main/Dictionaries/en-xsampa.yaml) found in the Dictionaries folder.
 ![Download en-xsampa.yaml](https://github.com/yoazur/m2rug-multilingual-project/blob/main/tutorial-images/downloadendict.png)
 - Place it at the root folder of the voicebank.
@@ -26,7 +26,7 @@ To make your m2RUg voicebank recognise english words, we'll mainly use a diction
 The en-xsampa.yaml dictionary uses the W phoneme, an additional vowel used for english and japanese, equivalent to the "uh" phoneme in arpasing. To record and add the W phoneme to your own m2RUg voicebank:
 - Download the [W-m2RUg-addon.txt](https://github.com/yoazur/m2rug-multilingual-project/blob/main/Additional-Phonemes/W-addon/W-m2RUg-addon.txt) reclist found in Additional-Phonemes/W-addon folder.
 ![Download W-m2RUg-addon.txt](https://github.com/yoazur/m2rug-multilingual-project/blob/main/tutorial-images/downloadwaddon.png)
-- Record the reclist using your recording software of choice (OREMO or RecStar is recommended for reclist reecording)
+- Record the reclist using your recording software of choice (OREMO or RecStar is recommended for reclist recording)
 - Create a new folder in your voicebank for the addon (This makes organisation easier). In that folder, put all your recordings and the [oto.ini](https://github.com/yoazur/m2rug-multilingual-project/blob/main/Additional-Phonemes/W-addon/oto.ini) included in Additional-Phonemes/W-addon
 ![Make a folder for the W phoneme](https://github.com/yoazur/m2rug-multilingual-project/blob/main/tutorial-images/waddonfolder)
 - Configure the oto.ini using your otoing method of choice (setparam, vLabeler, Laberu, Openutau, whatever is fine)
