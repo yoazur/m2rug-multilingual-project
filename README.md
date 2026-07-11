@@ -1,6 +1,6 @@
 # m2RUg Multilingual Project
 This project aims to smoothly(ish) use different languages with m2RUg French voicebanks in OpenUtau using tools like dictionaries and additionnal reclists for necessary phonemes.
-> [!IMPORTANT]
+> [!NOTE]
 > This repo is still being made and is not complete. Come back later to see when it's done.
 
 # Table of contents
@@ -15,13 +15,13 @@ This project aims to smoothly(ish) use different languages with m2RUg French voi
 In this part we'll see how to add language compability to an m2RUg-based voicebank using dictionaries and additionnal phonemes.
 ## Adding English
 ### The dictionary
-To make english words map to the right m2RUg-sampa phonemes, we'll mainly use a dictionary. To add it to the desired voicebank :
+Most of the phonemes necessary to make english are already in complete m2RUg voiebanks. However, you can optionally add the W phoneme when recording your voicebank if you also plan on adding full japanese compatibility (we'll talk about that later). That said, to make english words convert to the right m2RUg-sampa phonemes, we'll mainly use a phoneme dictionary. To add it to the desired voicebank :
 - Download the [en-xsampa.yaml](https://github.com/yoazur/m2rug-multilingual-project/blob/main/Dictionaries/en-xsampa.yaml) found in the Dictionaries folder.
 ![Download en-xsampa.yaml](https://github.com/yoazur/m2rug-multilingual-project/blob/main/tutorial-images/downloadendict.png)
 - Place it at the root folder of the voicebank.
 ![Place the file in root directory of voicebank](https://github.com/yoazur/m2rug-multilingual-project/blob/main/tutorial-images/placeendict.png)
 > [!IMPORTANT]
-> This dictionary includes the new W phoneme that you'll see in a moment. If you do not wish to record the W-Addon reclist or you're adding onto a voicebank that is not yours, you may simply replace all occurences of "W" (quotes included) with "u" in en-xsampa.yaml using the Find and Replace feature in your text editor of choice.
+> This dictionary includes the mentioned before W phoneme that you'll see in a moment. If you do not wish to record the W-Addon reclist or you're adding onto a voicebank that is not yours, you may simply download [en-xsampa(no-W).yaml](https://github.com/yoazur/m2rug-multilingual-project/blob/main/Dictionaries/en-xsampa(no-W).yaml) instead and remove (no-W) from the name of the file.
 ### The W-Addon
 The en-xsampa.yaml dictionary uses the W phoneme, an additional vowel used for english and japanese, equivalent to the "uh" phoneme in arpasing. To record and add the W phoneme to your own m2RUg voicebank:
 - Download the [W-m2RUg-addon.txt](https://github.com/yoazur/m2rug-multilingual-project/blob/main/Additional-Phonemes/W-addon/W-m2RUg-addon.txt) reclist found in Additional-Phonemes/W-addon folder.
@@ -31,7 +31,7 @@ The en-xsampa.yaml dictionary uses the W phoneme, an additional vowel used for e
 ![Make a folder for the W phoneme](https://github.com/yoazur/m2rug-multilingual-project/blob/main/tutorial-images/waddonfolder)
 - Configure the oto.ini using your otoing method of choice (setparam, vLabeler, Laberu, Openutau, whatever is fine)
 
-Your voicebank now has the W phoneme ready to use !
+Your voicebank now has the W phoneme ready to use ! Check out [how to use your new english comatibility](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#using-english).
 ## Completing Japanese
 
 # Using the different languages
