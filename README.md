@@ -31,9 +31,11 @@ The en-xsampa.yaml dictionary uses the W phoneme, an additional vowel used for e
 ![Make a folder for the W phoneme](https://github.com/yoazur/m2rug-multilingual-project/blob/main/tutorial-images/waddonfolder)
 - Configure the oto.ini using your otoing method of choice (setparam, vLabeler, Laberu, Openutau, whatever is fine)
 
-Your voicebank now has the W phoneme ready to use ! Check out [how to use your new english comatibility](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#using-english).
+Your voicebank now has english ready to use ! Check out [how to use your new english compatibility](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#using-english).
 ## Completing Japanese
+The french dictionary cmudict-fr.txt for OpenUtau already has japanese hiragana corresponding to the correct phonemes. However, there is a single phoneme not included in basic m2RUg : the japanese u. That's why this section is only useful if you wanna record the W phoneme (which I talked about in the english section earlier) for your own voicebank for full japanese compatibility.
 
+To add this phoneme and achieve full japanese compatibility with your m2RUg, simply follow the same [instructions as for adding english](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#adding-english) (both dictionary and W-Addon), since the en-xsampa.yaml dictionary also contains japanese hiragana. When that's done, check out [how to use your new japanese compatibility](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#using-japanese).
 # Using the different languages
 ## Using English
 ## Using Japanese
