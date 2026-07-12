@@ -15,7 +15,7 @@ This project aims to smoothly(ish) use different languages with m2RUg French voi
 In this part we'll see how to add language compability to an m2RUg-based voicebank using dictionaries and additionnal phonemes.
 ## Adding English
 ### The dictionary
-Most of the phonemes necessary to make english are already in complete m2RUg voiebanks. However, you can optionally add the W phoneme when recording your voicebank if you also plan on adding full japanese compatibility (we'll talk about that later). That said, to make english words convert to the right m2RUg-sampa phonemes, we'll mainly use a phoneme dictionary. To add it to the desired voicebank :
+Most of the phonemes necessary to make english are already in complete m2RUg voicebanks. However, you can optionally add the W phoneme when recording your voicebank if you also plan on adding full japanese compatibility (we'll talk about that later). That said, to make english words convert to the right m2RUg-sampa phonemes, we'll mainly use a phoneme dictionary. To add it to the desired voicebank :
 - Download the [en-xsampa.yaml](https://github.com/yoazur/m2rug-multilingual-project/blob/main/Dictionaries/en-xsampa.yaml) found in the Dictionaries folder.
 ![Download en-xsampa.yaml](https://github.com/yoazur/m2rug-multilingual-project/blob/main/tutorial-images/downloadendict.png)
 - Place it at the root folder of the voicebank.
@@ -27,13 +27,13 @@ The en-xsampa.yaml dictionary uses the W phoneme, an additional vowel used for e
 - Download the [W-m2RUg-addon.txt](https://github.com/yoazur/m2rug-multilingual-project/blob/main/Additional-Phonemes/W-addon/W-m2RUg-addon.txt) reclist found in Additional-Phonemes/W-addon folder.
 ![Download W-m2RUg-addon.txt](https://github.com/yoazur/m2rug-multilingual-project/blob/main/tutorial-images/downloadwaddon.png)
 - Record the reclist using your recording software of choice (OREMO or RecStar is recommended for reclist recording)
-- Create a new folder in your voicebank for the addon (This makes organisation easier). In that folder, put all your recordings and the [oto.ini](https://github.com/yoazur/m2rug-multilingual-project/blob/main/Additional-Phonemes/W-addon/oto.ini) included in Additional-Phonemes/W-addon
+- Create a new folder in your voicebank for the addon (This makes organisation easier). In that folder, put all your recordings and the [oto.ini](https://github.com/yoazur/m2rug-multilingual-project/blob/main/Additional-Phonemes/W-addon/oto.ini) included in Additional-Phonemes/W-addon.  
 ![Make a folder for the W phoneme](https://github.com/yoazur/m2rug-multilingual-project/blob/main/tutorial-images/waddonfolder)
 - Configure the oto.ini using your otoing method of choice (setparam, vLabeler, Laberu, Openutau, whatever is fine)
 
 Your voicebank now has english ready to use ! Check out [how to use your new english compatibility](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#using-english).
 ## Completing Japanese
-The french dictionary cmudict-fr.txt for OpenUtau already has japanese hiragana corresponding to the correct phonemes. However, there is a single phoneme not included in basic m2RUg : the japanese u. That's why this section is only useful if you wanna record the W phoneme (which I talked about in the english section earlier) for your own voicebank for full japanese compatibility.
+The french dictionary cmudict-fr.txt for OpenUtau already has japanese hiragana corresponding to the correct phonemes. However, there is a single phoneme not included in basic m2RUg : the japanese u. That's why this section is only useful if you want to record the W phoneme (which I talked about in the english section earlier) for your own voicebank for full japanese compatibility.
 
 To add this phoneme and achieve full japanese compatibility with your m2RUg, simply follow the same [instructions as for adding english](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#adding-english) (both dictionary and W-Addon), since the en-xsampa.yaml dictionary also contains japanese hiragana. When that's done, check out [how to use your new japanese compatibility](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#using-japanese).
 # Using the different languages
