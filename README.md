@@ -33,11 +33,13 @@ The en-xsampa.yaml dictionary uses the W phoneme, an additional vowel used for e
 
 Your voicebank now has english ready to use ! Check out [how to use your new english compatibility](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#using-english).
 ## Completing Japanese
-The french dictionary cmudict-fr.txt for OpenUtau already has japanese hiragana corresponding to the correct phonemes. However, there is a single phoneme not included in basic m2RUg : the japanese u. That's why this section is only useful if you want to record the W phoneme (which I talked about in the english section earlier) for your own voicebank for full japanese compatibility.
+Almost all of the phonemes necessary to make japanese are already in complete m2RUg voicebanks and the french dictionary cmudict-fr.txt for OpenUtau already has japanese hiragana corresponding to the correct phonemes. However, there is a single phoneme not included in basic m2RUg : the japanese u. That's why this section is only useful if you want to record the W phoneme (which I talked about in the english section earlier) for your own voicebank for full japanese compatibility.
 
-To add this phoneme and achieve full japanese compatibility with your m2RUg, simply follow the same [instructions as for adding english](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#adding-english) (both dictionary and W-Addon), since the en-xsampa.yaml dictionary also contains japanese hiragana. When that's done, check out [how to use your new japanese compatibility](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#using-japanese).
+To add this phoneme and achieve full japanese compatibility with your m2RUg, simply follow the same [instructions as for adding english](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#adding-english) (both the dictionary and the W-Addon), since the en-xsampa.yaml dictionary also contains japanese hiragana. When that's done, check out [how to use your new japanese compatibility](https://github.com/yoazur/m2rug-multilingual-project/blob/main/README.md#using-japanese).
+
 # Using the different languages
 ## Using English
+To use the dictionary for english, we'll use the built-in english x-sampa phonemizer for OpenUtau. If the dictionary doesn't work at first and the phonemes are blank, try using the phonemizer with any voicebank without the dictionary to initialise the phonemizer and create the base dictionary in the Plugins folder first (i think idk really). This dictionary has been confirmed to work on the latest version of OpenUtau Lunai edition. (it probably works on other versions and i know it doesn't work at first but i can't figure out how i did make it work in the first place uuuurrghh)
 ## Using Japanese
 
 # Credit
